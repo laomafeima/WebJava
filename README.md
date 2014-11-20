@@ -62,8 +62,3 @@ public void get() {
 }
 ```
 现在Run it 浏览器打开就会看到你Writer的内容了。  
-  
-其他
-----
-Web.Java还处于实验室阶段。如果你有好的想法或者思路，请Email我吧。
-
