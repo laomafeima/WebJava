@@ -17,7 +17,7 @@ public class InternalServerError500 {
     }
 
     /**
-     * 异常引起的404
+     * 触发500异常
      */
     public static void set500(Exception ex) {
         InternalServerError500.set500(ex.toString());
