@@ -57,13 +57,13 @@
             {%endif%}
             <p class="message">{{message}}</p>
             <p class="jump">
-                页面自动 <a id="href"
+                页面自动 <a id="href" 
 				href="{%if($isSetUrl:boolean)%}
 				{{url}}
 				{%else%}
 				javascript:history.back();
 				{%endif%}
-				">跳转</a> 等待：
+				">跳转</a> 等待时间：
                 <b id="wait">{{wait}}</b>
             </p>
         </div>

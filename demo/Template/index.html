@@ -1,0 +1,21 @@
+{% extends base%}
+
+{% block body%}
+<div>
+    <table border="1">
+        <tr>
+            <th>标题</th>
+            <th>发表时间</th>
+        </tr>
+        {%for(int i = 0; i < $articles:array2.length; i++)%}
+        <tr>
+            <td><a href="/Article/{{articles:i:0}}">
+                    {{articles:i:1}}</a>
+            </td>
+            <td>{{articles:i:2}}</td>
+        </tr>
+        {%endfor%}
+    </table>
+</div>
+
+{%end%}

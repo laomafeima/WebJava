@@ -31,14 +31,14 @@ public class Handler {
     /**
      * 获取参数
      * @param key
-     * @return
+     * @return 
      */
     public Object getArgument(String key){
         return this.request.Arguments.get(key);
     }
     /**
      * 把模版或者字符串写入
-     * @param s
+     * @param s 
      */
     public void writer(String s) {
         Response.setContent(s);

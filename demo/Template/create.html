@@ -1,0 +1,17 @@
+{% extends base%}
+
+{% block body%}
+<div>
+    <form method="post" action="/Create">
+        <div>
+            <input name="title" type="text">
+        </div>
+        <div>
+            <textarea name="content"></textarea>
+        </div>
+        <input type="submit" value="Submit">
+
+    </form>
+</div>
+
+{%end%}
