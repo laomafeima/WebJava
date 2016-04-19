@@ -1,7 +1,3 @@
-/*
- * To change this template, choose Cookie | Templates
- * and open the template in the editor.
- */
 package Web;
 
 import java.io.UnsupportedEncodingException;

@@ -1,4 +1,3 @@
-
 import Handler.*;
 import Web.*;
 
@@ -21,7 +20,8 @@ public class Main {
         Options.StaticPath = System.getProperty("user.dir") + "/src/Static/";//静态文件目录
         Options.TemplatePath = System.getProperty("user.dir") + "/src/Template/";//模版文件目录
 
-        Options.DEBUG = true;
+        Options.DEBUG = true; // 开启调试模式
+        // 注册控制器。
         HttpServer.setPATH("/", new IndexHandler());
         HttpServer.setPATH("\\/Article\\/(\\d+)", new ArticleHandler());
         HttpServer.setPATH("\\/Admin", new AdminHandler());
